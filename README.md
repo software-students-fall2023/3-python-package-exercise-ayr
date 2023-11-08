@@ -162,7 +162,7 @@ Value Not Found!
 ## Set up the virtual environment
 Install pipenv, build, and twine if not already installed.
 Create a pipenv-managed virtual environment and install the latest version of your package installed:
- `pip install bstpackage==0.0.6`
+ `pip install bstpackage==0.0.7`
  
 ## How to run unit tests
 
