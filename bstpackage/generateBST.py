@@ -1,11 +1,9 @@
-# Description of the Project 
-This Python project provides a versatile and efficient implementation of a Binary Search Tree (BST) through a TreeNode class and associated functions. A Binary Search Tree is a hierarchical data structure that allows rapid search, insertion, and deletion of elements in a sorted manner. This package encapsulates key operations on a BST, allowing the students to learn BST through a vivid demonstration.
+class TreeNode:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = key
 
-# Use the Package 
-## Functions supported by the package 
-### insert()
-The insert function allows the addition of new elements while preserving the BST property, ensuring efficient insertion of values into the tree.
-```\python
 def insert(root, key):
     if root is None:
         return TreeNode(key)
@@ -18,11 +16,7 @@ def insert(root, key):
             print("Value already exists!")
             return root
     return root
-```
 
-### delete()
-The delete function removes nodes based on specified keys, maintaining the BST structure by handling cases with one or two children elegantly.
-```\python
 def delete(root, key):
     if root is None:
         print("Value Not Found!")
@@ -43,11 +37,13 @@ def delete(root, key):
         root.val = get_min_value(root.right)
         root.right = delete(root.right, root.val)
     return root
-```
 
-### inorder_traversal()
-The inorder_traversal function performs an in-order traversal of the BST, generating a sorted sequence of elements, a fundamental operation in binary trees.
-```\python
+def get_min_value(node):
+    current = node
+    while current.left is not None:
+        current = current.left
+    return current.val
+
 def inorder_traversal(root):
     seq = io_traverse(root)
     print(seq)
@@ -61,11 +57,13 @@ def io_traverse(root):
         return result
     else:
         return []
-```
 
-### print_tree()
-The print_tree function visualizes the BST's hierarchical structure, aiding developers in understanding and debugging their tree-based algorithms.
-```\python
+def bst_from_unsorted_array(arr):
+    root = TreeNode(arr[0])
+    for i in range(1, len(arr)):
+        insert(root, arr[i])
+    return root
+
 def print_tree(root, val="val", left="left", right="right"):
     def display(root, val=val, left=left, right=right):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
@@ -115,33 +113,3 @@ def print_tree(root, val="val", left="left", right="right"):
     lines, _, _, _ = display(root, val, left, right)
     for line in lines:
         print(line)
-```
-
-## Sample Program to use the package 
-```
-import generateBST as GenBST
-def main():
-    root = GenBST.TreeNode(10)
-    print(root.val)
-    GenBST.insert(root, 12)
-    GenBST.insert(root, 18)
-    GenBST.insert(root, 11)
-    GenBST.insert(root, 6)
-    GenBST.insert(root, 6)
-    GenBST.print_tree(root)
-    GenBST.delete(root, 12)
-    GenBST.delete(root, 13)
-    GenBST.print_tree(root)
-    GenBST.inorder_traversal(root)
-if __name__ == '__main__':
-    main()
-```
-
-Here is a sample outptut for running the program
-![Sample Run](https://github.com/software-students-fall2023/3-python-package-exercise-ayr/blob/BST-Generation-and-Visualization/SampleRun.jpg)
-
-
-# Future contribution to the project 
-## Set up the virtual environment
-Install pipenv, build, and twine if not already installed.
-Create a pipenv-managed virtual environment and install the latest version of your package installed:(Note that if you've previously created a pipenv virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the pipenv --venv command.)
