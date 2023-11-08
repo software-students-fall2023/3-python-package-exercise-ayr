@@ -39,12 +39,12 @@ All code changes must be done in feature branches and not directly in the `main`
 To merge code from a feature branch into the `main` branch, do the following:
 
 1. Create a pull request from the feature branch to the `main` branch.
-1. Ask a fellow developer to review your code.
-1. The reviewer must review the code and run unit tests to verify that the functions behave as expepcted.
-1. If the reviewer has any concerns, discuss then and make any changes agreed upon.
-1. Merge the pull request into the `main` branch.
-1. Delete the feature branch.
-1. Pull the latest changes from the remote `main` branch to your local `main` branch.
+2. Ask a fellow developer to review your code.
+3. The reviewer must review the code and run unit tests to verify that the functions behave as expepcted.
+4. If the reviewer has any concerns, discuss then and make any changes agreed upon.
+5. Merge the pull request into the `main` branch.
+6. Delete the feature branch.
+7. Pull the latest changes from the remote `main` branch to your local `main` branch.
 
 **Warning**: the longer you let code sit in a feature branch, the more likely your team is to end up in [merge hell](https://en.wikipedia.org/wiki/Merge_hell). . Merge feature branches into `main` often to avoid this fate.
 
