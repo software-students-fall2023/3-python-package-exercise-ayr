@@ -1,4 +1,4 @@
-import generateBST as GenBST
+from bstpackage import generateBST as GenBST
 
 
 def main():
