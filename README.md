@@ -167,7 +167,7 @@ Value Not Found!
 - Run the program: `python3 __main__.py`.
 - Exit the virtual environment: `exit`.
 
-# How to build the project
+## How to build the project
 - Using the command `Python3 -m build`
 
  
