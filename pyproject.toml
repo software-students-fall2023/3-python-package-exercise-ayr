@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bstpackage"
 description = "A package that helps manipulate and visualize binary search trees."
-version = "0.0.3"
+version = "0.0.6"
 authors = [
   { name="Alex Xiang", email="qx501@nyu.edu" },
   { name="Yimeng Duan", email="yd2107@nyu.edu" },
