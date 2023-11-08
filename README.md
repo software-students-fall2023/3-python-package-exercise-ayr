@@ -174,9 +174,9 @@ Tests should never fail. Any failed tests indicate that the production code is b
 
 ## Group Members
 
-Richard Fu [https://github.com/RichardFuuu]
-Yimeng Duan [https://github.com/YimengDuan2002]
-Alex Xiang [https://github.com/AlexXiang604]
+- Richard Fu [https://github.com/RichardFuuu]
+- Yimeng Duan [https://github.com/YimengDuan2002]
+- Alex Xiang [https://github.com/AlexXiang604]
 
 ## Package PyPI Website
 https://pypi.org/project/bstpackage/
