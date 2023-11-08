@@ -160,14 +160,12 @@ Value Not Found!
 ## Set up the virtual environment
 Install pipenv, build, and twine if not already installed.
 Create a pipenv-managed virtual environment and install the latest version of your package installed:
-```
-
-```
+ `pip install bstpackage==0.0.6`
+ 
 ## How to run unit tests
 
 Simple example unit tests are included within the `tests` directory. To run these tests...
 
 Install pytest in a virtual environment.
-Download by `pip install bstpackage==0.0.6`
 Run the tests from the main project directory: `python3 -m pytest`.
 Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
