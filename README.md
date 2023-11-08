@@ -1,4 +1,4 @@
-![Python build & test](https://github.com/software-students-fall2023/3-python-package-exercise-ayr/blob/main/.github/workflows/python-publish.yml/badge.svg)
+
 
 # Description of the Project 
 This Python project provides a versatile and efficient implementation of a Binary Search Tree (BST) through a TreeNode class and associated functions. A Binary Search Tree is a hierarchical data structure that allows rapid search, insertion, and deletion of elements in a sorted manner. This package encapsulates key operations on a BST, allowing the students to learn BST through a vivid demonstration.
