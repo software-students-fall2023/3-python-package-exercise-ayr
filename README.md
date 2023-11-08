@@ -167,6 +167,7 @@ Create a pipenv-managed virtual environment and install the latest version of yo
 
 Simple example unit tests are included within the `tests` directory. To run these tests...
 
-1. Install pytest in a virtual environment.
-1. Run the tests from the main project directory: `python3 -m pytest`.
-1. Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
+Install pytest in a virtual environment.
+Download by `pip install bstpackage==0.0.6`
+Run the tests from the main project directory: `python3 -m pytest`.
+Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
