@@ -144,4 +144,6 @@ Here is a sample outptut for running the program
 # Future contribution to the project 
 ## Set up the virtual environment
 Install pipenv, build, and twine if not already installed.
-Create a pipenv-managed virtual environment and install the latest version of your package installed:(Note that if you've previously created a pipenv virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the pipenv --venv command.)
+Create and activate up the `pipenv` virtual environment as before.
+Run the package directly from the command line: `python3 -m bstpackage`. This should run the code in the `__main__.py` file.
+Exit the virtual environment.
