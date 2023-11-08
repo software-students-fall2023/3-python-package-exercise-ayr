@@ -138,12 +138,35 @@ if __name__ == '__main__':
 ```
 
 Here is a sample outptut for running the program
-![Sample Run](https://github.com/software-students-fall2023/3-python-package-exercise-ayr/blob/BST-Generation-and-Visualization/SampleRun.jpg)
+```
+10
+Value already exists!
+ 10___   
+/     \  
+6    12_ 
+    /   \
+   11  18
+Value Not Found!
+ 10___ 
+/     \
+6    18
+    /  
+   11  
+[6, 10, 11, 18]
+```
 
 
 # Future contribution to the project 
 ## Set up the virtual environment
 Install pipenv, build, and twine if not already installed.
-Create and activate up the `pipenv` virtual environment as before.
-Run the package directly from the command line: `python3 -m bstpackage`. This should run the code in the `__main__.py` file.
-Exit the virtual environment.
+Create a pipenv-managed virtual environment and install the latest version of your package installed:
+```
+
+```
+## How to run unit tests
+
+Simple example unit tests are included within the `tests` directory. To run these tests...
+
+1. Install pytest in a virtual environment.
+1. Run the tests from the main project directory: `python3 -m pytest`.
+1. Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
