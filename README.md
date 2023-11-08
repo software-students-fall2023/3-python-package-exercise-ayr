@@ -160,12 +160,12 @@ Value Not Found!
 
 # Future contribution to the project 
 ## How to set up and run the package test program 
--Install pipenv, build, and twine if not already installed.
--Activate the virtual environment: `pipenv shell`.
--Install the latest version of your package installed `pip install bstpackage==0.0.7`
--Direct to the directory bstpackage
--Run the program: `python3 __main__.py`.
--Exit the virtual environment: `exit`.
+- Install pipenv, build, and twine if not already installed.
+- Activate the virtual environment: `pipenv shell`.
+- Install the latest version of your package installed `pip install bstpackage==0.0.7`
+- Direct to the directory bstpackage
+- Run the program: `python3 __main__.py`.
+- Exit the virtual environment: `exit`.
  
 ## How to run unit tests
 
