@@ -172,10 +172,10 @@ Value Not Found!
 
  
 ## How to run unit tests
-1.Simple example unit tests are included within the `tests` directory. To run these tests...
-2. Install pytest in a virtual environment.
-3. Run the tests from the main project directory: `python3 -m pytest`.
-4. Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
+- Simple example unit tests are included within the `tests` directory. To run these tests...
+- Install pytest in a virtual environment.
+- Run the tests from the main project directory: `python3 -m pytest`.
+- Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
 
 ## Group Members
 
