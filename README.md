@@ -1,4 +1,4 @@
-
+![Python build & test](https://github.com/software-students-fall2023/3-python-package-exercise-ayr/actions/workflows/python-package.yml/badge.svg)
 
 # Description of the Project 
 This Python project provides a versatile and efficient implementation of a Binary Search Tree (BST) through a TreeNode class and associated functions. A Binary Search Tree is a hierarchical data structure that allows rapid search, insertion, and deletion of elements in a sorted manner. This package encapsulates key operations on a BST, allowing the students to learn BST through a vivid demonstration.
@@ -171,3 +171,12 @@ Simple example unit tests are included within the `tests` directory. To run thes
 Install pytest in a virtual environment.
 Run the tests from the main project directory: `python3 -m pytest`.
 Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
+
+## Group Members
+
+Richard Fu [https://github.com/RichardFuuu]
+Yimeng Duan [https://github.com/YimengDuan2002]
+Alex Xiang [https://github.com/AlexXiang604]
+
+## Package PyPI Website
+https://pypi.org/project/bstpackage/
